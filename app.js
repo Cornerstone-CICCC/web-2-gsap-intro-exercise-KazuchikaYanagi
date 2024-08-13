@@ -47,6 +47,6 @@ timeline
     "<"
   )
   .to(".red", { x: "100vw", left: 0, duration: 1 })
-  .to(".green", { x: 200, duration: 1 }, "<")
-  .to(".blue", { x: -200, duration: 1 }, "<")
-  .to(".yellow", { x: -200, duration: 1 }, "<");
+  .to(".green", { x: "100vw", left: 0, duration: 1 }, "<")
+  .to(".blue", { x: -200, bottom: 0, duration: 1 }, "<")
+  .to(".yellow", { x: -200, left: 0, duration: 1 }, "<");
